@@ -114,9 +114,11 @@ if(typeof nodeA[2] != 'undefined'){
 
 //adding the user request in a log.txt file
 getName();
+var separator = "---------------------------------------------------------------------------------\n";
+var formatDate =  moment(new Date()).format("MM/DD/YYYY: HH:mm:SS")+ "\n";
 var userRequest = (request + " "+ name + '\n');
 // log(userRequest);
-fs.appendFile("log.txt", userRequest, function(err) {
+fs.appendFile("log.txt", separator+formatDate+userRequest, function(err) {
 
     // If an error was experienced we will log it.
     if (err) {

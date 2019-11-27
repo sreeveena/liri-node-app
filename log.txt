@@ -306,3 +306,47 @@ Date of the Event: 04/18/2020
 Name of the venue: WaMu Theater
 Venue location: Seattle WA United States
 Date of the Event: 04/03/2020
+spotify-this-song Believer
+11/27/2019: 12:11I:07
+Artist(s):
+A preview link of the song from Spotify:
+null
+The album that the song is from:
+Evolve
+The song's name:
+Believer
+Imagine Dragons
+11/27/2019: 13:01:32
+spotify-this-song Believer
+Artist(s):
+A preview link of the song from Spotify:
+null
+The album that the song is from:
+Evolve
+The song's name:
+Imagine Dragons
+Believer
+---------------------------------------------------------------------------------
+11/27/2019: 13:02:41
+movie-this 21
+Title of the movie is: 21
+Rotten Tomatoes Rating of the movie: 36%
+Language of the movie: English
+Plot of the movie: "21" is the fact-based story about six MIT students who were trained to become experts in card counting and subsequently took Vegas casinos for millions in winnings.
+Actors in the movie: Jim Sturgess, Kevin Spacey, Kate Bosworth, Aaron Yoo
+Country where the movie was produced: USA
+Year the movie came out: 2008
+IMDB Rating of the movie: 6.8
+---------------------------------------------------------------------------------
+11/27/2019: 13:07:00
+do-what-it-says 
+movie-this
+Die Hard
+Title of the movie is: Die Hard
+Country where the movie was produced: USA
+Language of the movie: English, German, Italian, Japanese
+Plot of the movie: An NYPD officer tries to save his wife and several others taken hostage by German terrorists during a Christmas party at the Nakatomi Plaza in Los Angeles.
+Actors in the movie: Bruce Willis, Bonnie Bedelia, Reginald VelJohnson, Paul Gleason
+IMDB Rating of the movie: 8.2
+Year the movie came out: 1988
+Rotten Tomatoes Rating of the movie: 93%
