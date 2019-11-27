@@ -4,8 +4,7 @@ var keys = require("./keys.js");
 var moment = require('moment');
 moment().format();
 var Spotify = require('node-spotify-api');
-
-// var spotify = new Spotify(keys.spotify);
+var spotify = new Spotify(keys.spotify);
 var nodeA = process.argv;
 var name = "";
 //this variable will have user request 
@@ -48,8 +47,34 @@ return "0%";
               
             });
     }else if(request == "spotify-this-song"){
-        
+        getName();
+        if(name == ""){
+            spotify.search({ type: 'track', query: 'All the Small Things' }, function(err, data) {
+                if (err) {
+                  return console.log('Error occurred: ' + err);
+                }
+                for( var i =0; i<response.data.length; i++){
+                    console.log("Artist(s): " +data.tracks.items[i].album.artists[i]);
+                    console.log("The song's name: " +data.tracks.items[i].album.artists[i]);
+                    console.log("A preview link of the song from Spotify: " +data.tracks.items[i].album.external_urls.spotif);
+                    console.log("The album that the song is from: " +data.tracks.items[i].album.artists[i]);    
+                } 
 
+            });
+       
+        }else{
+            spotify.search({ type: 'track', query: name }, function(err, data) {
+                if (err) {
+                  return console.log('Error occurred: ' + err);
+                }
+                for( var i =0; i<response.data.length; i++){
+                    console.log("Artist(s): " +data.tracks.items[i].album.artists[i]);
+                    console.log("The song's name: " +data.tracks.items[i].album.artists[i]);
+                    console.log("A preview link of the song from Spotify: " +data.tracks.items[i].album.external_urls.spotif);
+                    console.log("The album that the song is from: " +data.tracks.items[i].album.artists[i]);    
+                }  
+            });   
+        }
     }else if(request == "movie-this"){
         if(name == ""){
             var queryUrl = "http://www.omdbapi.com/?t=Mr.+Nobody&y=&plot=short&apikey=trilogy";
