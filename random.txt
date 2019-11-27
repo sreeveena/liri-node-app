@@ -1,1 +1,20 @@
-* spotify-this-song,"I Want it That Way"
+spotify-this-song,I Want It That Way
+movie-this,Die Hard
+concert-this,Billie Eilish
+spotify-this-song,Thunder
+movie-this,Inside Man
+concert-this,Blake Shelton
+spotify-this-song,Believer
+movie-this,21
+concert-this,Illenium
+spotify-this-song,Radioactive
+movie-this,Speed
+concert-this,Ozzy Osbourne
+spotify-this-song,Demons
+movie-this,No Country For Old Men
+concert-this,Post Malone
+spotify-this-song,Whatever It Takes
+movie-this,Terminator
+concert-this,Green Day
+spotify-this-song,Natural
+movie-this,Avatar
