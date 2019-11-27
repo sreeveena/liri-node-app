@@ -32,4 +32,4 @@ and if user enters node liri.js movie-this, it will provide all the above infora
 4. When a user enters node liri.js do-what-it-says, it will generate a random number and read the rando line from random.txt file and displays the content appropriately.
 5.  When a user enters node liri.js, it will show, "Sorry this request cannot be made."
 
-[!gif] (https://user-images.githubusercontent.com/7834767/69753218-e43f0500-1107-11ea-92b5-93e979abf414.gif)
+[!gif] (https://user-images.githubusercontent.com/7834767/69755223-9ed10680-110c-11ea-8a45-435aebdf01d1.gif)
