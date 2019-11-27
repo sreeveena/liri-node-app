@@ -97,7 +97,7 @@ function getMovieInfo(name){
     });
     
 }
-console.log(nodeA[3]);
+// console.log(nodeA[3]);
 if(typeof nodeA[2] != 'undefined'){
     request = nodeA[2].toLowerCase();
 }
