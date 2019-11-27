@@ -33,10 +33,11 @@ and if user enters node liri.js movie-this, it will provide all the above infora
 5.  When a user enters node liri.js, it will show, "Sorry this request cannot be made."
 
 function to get name from the user input
+
 '''javascript
 function getName(){
     name = "";
-    for( var i=3; i<nodeA.length; i++){
+    for( var i=3; i < nodeA.length; i++){
         if(i>3 && i< nodeA.length){
             name = name + " " + nodeA[i];
         }else{
@@ -45,7 +46,9 @@ function getName(){
     }
 }
 '''
+
 function to print the data in log file and on the console
+
 '''javascript
  function log(message){
     console.log(message);
@@ -56,7 +59,9 @@ function to print the data in log file and on the console
     });
 }
 '''
+
  function will get concert details from bandsintown site
+ 
  '''javascript
 function getConcertInfo(name){
     if(name == ""){
