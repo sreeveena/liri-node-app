@@ -49,19 +49,18 @@ function getName(){
 
 function to print the data in log file and on the console
 
-'''javascript
- function log(message){
-    console.log(message);
-    fs.appendFile("log.txt", message + '\n', function(err){
+    function log(message){
+     console.log(message);
+     fs.appendFile("log.txt", message + '\n', function(err){
         if(err){
             console.log(err);
         }
-    });
-}
-'''
+     });
+    }
+
 
  function will get concert details from bandsintown site
- 
+
  '''javascript
 function getConcertInfo(name){
     if(name == ""){
