@@ -70,7 +70,7 @@ function getSongInfo(name){
     }
     for( var i = 0; i < data.tracks.items.length; i++){
         // log(data.tracks.items[i].name);
-        if(data.tracks.items[i].name == name){
+        if(data.tracks.items[i].name.toLowerCase() == name.toLowerCase()){
             log("Artist(s):");
             log(data.tracks.items[i].artists[0].name);
             log("The song's name:");
